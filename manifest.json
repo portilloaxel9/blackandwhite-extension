@@ -1,0 +1,27 @@
+{
+    "name": "Black and White Extension",
+    "version": "1.0",
+    "description": "Converts the current webpage to black and white.",
+    "icons": {
+     "64": "./icons/eye64.png"
+     },
+     "browser_action": {
+         "default_icon": {
+           "64": "./icons/close64.png"
+         },
+         "default_title": "Black and White Extension"
+     },
+     "manifest_version": 2,
+     "permissions": [
+        "activeTab",
+        "tabs"
+      ],
+     "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["contentScript.js"],
+        "run_at": "document_idle"
+     }],
+     "background": {
+         "scripts": ["background.js"]
+     }
+ } 
