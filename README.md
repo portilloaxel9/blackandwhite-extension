@@ -1,5 +1,1 @@
-Credits:
-
-Part of the code was created by ChatGPT: https://chat.openai.com/
-
-The icons are from Flaticon: https://www.flaticon.es/
+Extensión de Google Chrome para convertir cualquier página en blanco y negro. Creado con JavaScript.
